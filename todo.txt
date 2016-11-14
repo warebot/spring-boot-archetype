@@ -1,0 +1,5 @@
+mvn install
+// AND updates archetype catalog
+mvn install archetype:update-local-catalog
+// calls plugin archetype goal crawl
+mvn archetype:crawl
